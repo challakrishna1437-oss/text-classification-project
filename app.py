@@ -5,8 +5,8 @@ import joblib
 # Load trained model and TF-IDF vectorizer
 # --------------------------------------------------
 
-model = joblib.load("models/text_classifier.joblib")
-vectorizer = joblib.load("models/tfidf_vectorizer.joblib")
+model = joblib.load("text_classifier.joblib")
+vectorizer = joblib.load("tfidf_vectorizer.joblib")
 
 
 # --------------------------------------------------
